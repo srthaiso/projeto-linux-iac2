@@ -13,7 +13,7 @@ Este repositório contém um script Bash simples para provisionamento de um serv
 ## Script
 
 ```bash
-#!/bin/bash/
+#!/bin/bash
 
 echo "Script de Provisionamento de um Servidor Web (Apache)"
 
