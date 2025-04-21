@@ -28,7 +28,7 @@ apt-get install unzip -y
 echo "Baixando pagina de teste"
 cd /tmp
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
-unzip main.zio
+unzip main.zip
 cd linux-site-dio
 
 echo "Enviando arquivos para pasta padrão do apache"
