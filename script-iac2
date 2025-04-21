@@ -1,4 +1,4 @@
-#!/bin/bash/
+#!/bin/bash
 
 echo "Script de Provisionamento de um Servidor Web (Apache)"
 
