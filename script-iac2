@@ -1,0 +1,26 @@
+#!/bin/bash/
+
+echo "Script de Provisionamento de um Servidor Web (Apache)"
+
+echo "Atualizando sistema operacional"
+
+apt-get update -y
+apt-get upgrade -y
+
+echo "Instalando o serviço Apache"
+
+apt-get install apache2 -y
+apt-get install unzip -y
+
+echo "Baixando pagina de teste"
+
+cd /tmp
+wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
+unzip main.zio
+cd linux-site-dio
+
+echo "Enviando arquivos para pasta padrão do apache"
+
+cp -R * /var/www/html/
+
+echo "Script finalizado"
